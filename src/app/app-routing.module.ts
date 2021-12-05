@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ApplicationComponent } from './application/application.component';
 import { EditApplicationComponent } from './edit-application/edit-application.component';
+import { MoveToAnotherHostComponent } from './move-to-another-host/move-to-another-host.component';
 
 const routes: Routes = [
   {
@@ -11,6 +12,10 @@ const routes: Routes = [
   {
     path: 'edit-app',
     component: EditApplicationComponent,
+  },
+  {
+    path: 'move',
+    component: MoveToAnotherHostComponent,
   },
 ];
 

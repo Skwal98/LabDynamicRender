@@ -8,6 +8,7 @@ import { ApplicationComponent } from './application/application.component';
 import { EditApplicationComponent } from './edit-application/edit-application.component';
 import { InfoButtonComponent } from './info-button/info-button.component';
 import { HostDirective } from './host.directive';
+import { MoveToAnotherHostComponent } from './move-to-another-host/move-to-another-host.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { HostDirective } from './host.directive';
     EditApplicationComponent,
     InfoButtonComponent,
     HostDirective,
+    MoveToAnotherHostComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

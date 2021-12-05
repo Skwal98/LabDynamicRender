@@ -4,7 +4,5 @@ import { Directive, ViewContainerRef } from '@angular/core';
   selector: '[host]',
 })
 export class HostDirective {
-  constructor(public hostElement: ViewContainerRef) {
-    console.log('ctor dir');
-  }
+  constructor(public hostElement: ViewContainerRef) {}
 }
